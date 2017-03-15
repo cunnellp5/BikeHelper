@@ -44,7 +44,6 @@ export default {
 </script>
 
 
-
 <style lang="css">
   #bicyclist {
     display: flex;
