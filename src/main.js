@@ -10,7 +10,7 @@ new Vue({
   <div>
     <navbar />
     <section class="section">
-      <div class="container is-mobile">
+      <div class="container is-fluid">
         <router-view></router-view>
       </div>
     </section>

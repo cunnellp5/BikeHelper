@@ -10,15 +10,19 @@ import help from './containers/help'
 // application routes
 const routes = [{
     path: '/',
+    name: 'home',
     component: home
   }, {
     path: '/bicyclist',
+    name: 'bicyclist',
     component: bicyclist
   }, {
     path: '/projects',
+    name: 'projects',
     component: projects
   }, {
     path: '/help',
+    name: 'help',
     component: help
   }]
   // export router instance

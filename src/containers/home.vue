@@ -1,9 +1,9 @@
 <template lang="html">
   <div id="home" class="content">
-    <router-link class="nav-item is-tab" to="/bicyclist">
+    <router-link class="button" to="/bicyclist">
       <i class="fa fa-bicyclist"></i> Bicyclist
     </router-link>
-    <router-link class="nav-item is-tab" to="/projects">
+    <router-link class="button" to="/projects">
       <i class="fa fa-list-alt"></i> Bicycle Store
     </router-link>
     <h1>About:</h1>

@@ -10,7 +10,7 @@
         <div class="media">
           <div class="media-left">
             <figure class="image" style="height: 40px; width: 40px;">
-              <img src="https://source.unsplash.com/random/96x96.png" alt="Image">
+              <img v-bind:src="image" alt="Image">
             </figure>
           </div>
           <div class="media-content">
@@ -50,7 +50,8 @@ export default {
     loadBicyclist: function () {
       axios.get('http://localhost:3000/user').then((response) => {
         this.bicyclist = response.data["0"]
-        console.log(response.data);
+        this.image = this.bicyclist.image
+        console.log();
       }, (err) => {
         console.log(err)
       })
