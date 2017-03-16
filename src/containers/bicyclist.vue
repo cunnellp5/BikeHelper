@@ -14,8 +14,8 @@
             </figure>
           </div>
           <div class="media-content">
-            <p class="title is-4">John Smith</p>
-            <p class="subtitle is-6">@johnsmith</p>
+            <p class="title is-4">{{bicyclist.firstName}}</p>
+            <p class="subtitle is-6">{{bicyclist.email}}</p>
           </div>
         </div>
 
@@ -38,8 +38,27 @@
 </template>
 
 <script>
+import axios from 'axios'
 export default {
-  name: 'bicyclist'
+  name: 'bicyclist',
+  data(){
+    return {
+      bicyclist: {}
+    }
+  },
+  methods: {
+    loadBicyclist: function () {
+      axios.get('http://localhost:3000/user').then((response) => {
+        this.bicyclist = response.data["0"]
+        console.log(response.data);
+      }, (err) => {
+        console.log(err)
+      })
+    }
+  },
+  mounted: function () {
+    this.loadBicyclist()
+  }
 }
 </script>
 
