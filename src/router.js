@@ -7,6 +7,7 @@ import home from './containers/Home'
 import bicyclist from './containers/bicyclist'
 import projects from './containers/projects'
 import help from './containers/help'
+import login from './containers/login'
 // application routes
 const routes = [{
     path: '/',
@@ -24,6 +25,10 @@ const routes = [{
     path: '/help',
     name: 'help',
     component: help
+  }, {
+    path: '/login',
+    name: 'login',
+    component: login
   }]
   // export router instance
 export default new Router({
