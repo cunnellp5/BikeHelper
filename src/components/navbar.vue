@@ -1,5 +1,5 @@
 <template lang="html">
-  <nav class="nav has-shadow" >
+  <nav id="hideMe" class="nav has-shadow" >
     <div class="nav-left">
       <router-link class="nav-item is-brand" to="/">
         Home Page

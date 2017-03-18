@@ -1,27 +1,32 @@
 <template lang="html">
   <div>
-  <div class="field">
-    <label class="label">Name</label>
-    <p class="control">
-      <input class="input" type="text" placeholder="Text input">
-    </p>
-  </div>
+    <div class="field">
+      <label class="label">First Name</label>
+      <p class="control">
+        <input class="input" type="text" placeholder="Bobby">
+      </p>
+    </div>
+    <div class="field">
+      <label class="label">Last Name</label>
+      <p class="control">
+        <input class="input" type="text" placeholder="Mcflay">
+      </p>
+    </div>
 
   <div class="field">
-    <label class="label">Username</label>
+    <label class="label">Image</label>
     <p class="control has-icon has-icon-right">
-      <input class="input is-success" type="text" placeholder="Text input" value="bulma">
+      <input class="input is-success" type="text" placeholder=".jpg type files go here" value="">
       <span class="icon is-small">
         <i class="fa fa-check"></i>
       </span>
     </p>
-    <p class="help is-success">This username is available</p>
   </div>
 
   <div class="field">
     <label class="label">Email</label>
     <p class="control has-icon has-icon-right">
-      <input class="input is-danger" type="text" placeholder="Email input" value="hello@">
+      <input class="input is-danger" type="text" placeholder="Email input" value="">
       <span class="icon is-small">
         <i class="fa fa-warning"></i>
       </span>
@@ -30,49 +35,45 @@
   </div>
 
   <div class="field">
-    <label class="label">Subject</label>
-    <p class="control">
-      <span class="select">
-        <select>
-          <option>Select dropdown</option>
-          <option>With options</option>
-        </select>
+    <label class="label">Password</label>
+    <p class="control has-icon has-icon-right">
+      <input class="input is-danger" type="text" placeholder="password input" value="">
+      <span class="icon is-small">
+        <i class="fa fa-warning"></i>
       </span>
     </p>
+    <p class="help is-danger">This password won't work</p>
   </div>
 
   <div class="field">
-    <label class="label">Message</label>
-    <p class="control">
-      <textarea class="textarea" placeholder="Textarea"></textarea>
+    <label class="label">Phone</label>
+    <p class="control has-icon has-icon-right">
+      <input class="input is-danger" type="telephone" placeholder="Phone input" value="xxx-xxx-xxxx">
+      <span class="icon is-small">
+        <i class="fa fa-warning"></i>
+      </span>
     </p>
+    <p class="help is-danger">This phone is invalid</p>
   </div>
+<br>
 
   <div class="field">
     <p class="control">
-      <label class="checkbox">
-        <input type="checkbox">
-        Remember me
-      </label>
-    </p>
-  </div>
-
-  <div class="field">
-    <p class="control">
+      <label class="label">Who are you?</label>
       <label class="radio">
         <input type="radio" name="question">
-        Yes
+        Bicyclist
       </label>
       <label class="radio">
         <input type="radio" name="question">
-        No
+        Store
       </label>
     </p>
   </div>
-
+<br>
   <div class="field is-grouped">
     <p class="control">
-      <button class="button is-primary">Submit</button>
+      <button class="button is-primary">Sign up</button>
     </p>
     <p class="control">
       <button class="button is-link">Cancel</button>

@@ -1,22 +1,12 @@
 <template lang="html">
-  <div>
+  <div class="is-mobile">
   <div class="field">
-    <label class="label">Name</label>
+    <label class="label">First name</label>
     <p class="control">
       <input class="input" type="text" placeholder="Text input">
     </p>
   </div>
-
-  <div class="field">
-    <label class="label">Username</label>
-    <p class="control has-icon has-icon-right">
-      <input class="input is-success" type="text" placeholder="Text input" value="bulma">
-      <span class="icon is-small">
-        <i class="fa fa-check"></i>
-      </span>
-    </p>
-    <p class="help is-success">This username is available</p>
-  </div>
+  <br>
 
   <div class="field">
     <label class="label">Email</label>
@@ -28,51 +18,10 @@
     </p>
     <p class="help is-danger">This email is invalid</p>
   </div>
-
-  <div class="field">
-    <label class="label">Subject</label>
-    <p class="control">
-      <span class="select">
-        <select>
-          <option>Select dropdown</option>
-          <option>With options</option>
-        </select>
-      </span>
-    </p>
-  </div>
-
-  <div class="field">
-    <label class="label">Message</label>
-    <p class="control">
-      <textarea class="textarea" placeholder="Textarea"></textarea>
-    </p>
-  </div>
-
-  <div class="field">
-    <p class="control">
-      <label class="checkbox">
-        <input type="checkbox">
-        Remember me
-      </label>
-    </p>
-  </div>
-
-  <div class="field">
-    <p class="control">
-      <label class="radio">
-        <input type="radio" name="question">
-        Yes
-      </label>
-      <label class="radio">
-        <input type="radio" name="question">
-        No
-      </label>
-    </p>
-  </div>
-
+  <br>
   <div class="field is-grouped">
     <p class="control">
-      <button class="button is-primary">Submit</button>
+      <button class="button is-primary">Login</button>
     </p>
     <p class="control">
       <button class="button is-link">Cancel</button>
@@ -88,4 +37,5 @@ export default {
 </script>
 
 <style lang="css">
+
 </style>
