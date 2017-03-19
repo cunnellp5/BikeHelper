@@ -1,6 +1,6 @@
 # bikeapp
 
-> capscone stuff
+> capstone stuff
 
 ## Build Setup
 
