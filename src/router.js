@@ -35,6 +35,7 @@ const routes = [{
     name: 'signup',
     component: signup
   }]
+
   // export router instance
 export default new Router({
   mode: 'history',
